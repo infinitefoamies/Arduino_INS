@@ -1,0 +1,95 @@
+Arduino: 1.8.1 (Windows 7), Board: "Arduino/Genuino Mega or Mega 2560, ATmega2560 (Mega 2560)"
+
+C:\Program Files (x86)\Arduino\arduino-builder -dump-prefs -logger=machine -hardware C:\Program Files (x86)\Arduino\hardware -tools C:\Program Files (x86)\Arduino\tools-builder -tools C:\Program Files (x86)\Arduino\hardware\tools\avr -built-in-libraries C:\Program Files (x86)\Arduino\libraries -libraries C:\Users\LJI_eric\Documents\Arduino\libraries -fqbn=arduino:avr:mega:cpu=atmega2560 -ide-version=10801 -build-path C:\Users\LJI_eric\AppData\Local\Temp\arduino_build_471209 -warnings=none -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.avr-gcc.path=C:\Program Files (x86)\Arduino\hardware\tools\avr -prefs=runtime.tools.arduinoOTA.path=C:\Program Files (x86)\Arduino\hardware\tools\avr -prefs=runtime.tools.avrdude.path=C:\Program Files (x86)\Arduino\hardware\tools\avr -verbose C:\Users\LJI_eric\Documents\Arduino\sketch_mar20a\sketch_mar20a.ino
+C:\Program Files (x86)\Arduino\arduino-builder -compile -logger=machine -hardware C:\Program Files (x86)\Arduino\hardware -tools C:\Program Files (x86)\Arduino\tools-builder -tools C:\Program Files (x86)\Arduino\hardware\tools\avr -built-in-libraries C:\Program Files (x86)\Arduino\libraries -libraries C:\Users\LJI_eric\Documents\Arduino\libraries -fqbn=arduino:avr:mega:cpu=atmega2560 -ide-version=10801 -build-path C:\Users\LJI_eric\AppData\Local\Temp\arduino_build_471209 -warnings=none -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.avr-gcc.path=C:\Program Files (x86)\Arduino\hardware\tools\avr -prefs=runtime.tools.arduinoOTA.path=C:\Program Files (x86)\Arduino\hardware\tools\avr -prefs=runtime.tools.avrdude.path=C:\Program Files (x86)\Arduino\hardware\tools\avr -verbose C:\Users\LJI_eric\Documents\Arduino\sketch_mar20a\sketch_mar20a.ino
+Using board 'mega' from platform in folder: C:\Program Files (x86)\Arduino\hardware\arduino\avr
+Using core 'arduino' from platform in folder: C:\Program Files (x86)\Arduino\hardware\arduino\avr
+Detecting libraries used...
+"C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics  -flto -w -x c++ -E -CC -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=10801 -DARDUINO_AVR_MEGA2560 -DARDUINO_ARCH_AVR   "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega" "C:\Users\LJI_eric\AppData\Local\Temp\arduino_build_471209\sketch\sketch_mar20a.ino.cpp" -o "nul"
+"C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics  -flto -w -x c++ -E -CC -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=10801 -DARDUINO_AVR_MEGA2560 -DARDUINO_ARCH_AVR   "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega" "-IC:\Program Files (x86)\Arduino\libraries\Motion" "C:\Users\LJI_eric\AppData\Local\Temp\arduino_build_471209\sketch\sketch_mar20a.ino.cpp" -o "nul"
+"C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics  -flto -w -x c++ -E -CC -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=10801 -DARDUINO_AVR_MEGA2560 -DARDUINO_ARCH_AVR   "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega" "-IC:\Program Files (x86)\Arduino\libraries\Motion" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src" "C:\Users\LJI_eric\AppData\Local\Temp\arduino_build_471209\sketch\sketch_mar20a.ino.cpp" -o "nul"
+"C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics  -flto -w -x c++ -E -CC -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=10801 -DARDUINO_AVR_MEGA2560 -DARDUINO_ARCH_AVR   "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega" "-IC:\Program Files (x86)\Arduino\libraries\Motion" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src" "C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src\Wire.cpp" -o "nul"
+"C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics  -flto -w -x c++ -E -CC -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=10801 -DARDUINO_AVR_MEGA2560 -DARDUINO_ARCH_AVR   "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega" "-IC:\Program Files (x86)\Arduino\libraries\Motion" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src" "C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src\utility\twi.c" -o "nul"
+Generating function prototypes...
+"C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics  -flto -w -x c++ -E -CC -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=10801 -DARDUINO_AVR_MEGA2560 -DARDUINO_ARCH_AVR   "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega" "-IC:\Program Files (x86)\Arduino\libraries\Motion" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src" "C:\Users\LJI_eric\AppData\Local\Temp\arduino_build_471209\sketch\sketch_mar20a.ino.cpp" -o "C:\Users\LJI_eric\AppData\Local\Temp\arduino_build_471209\preproc\ctags_target_for_gcc_minus_e.cpp"
+"C:\Program Files (x86)\Arduino\tools-builder\ctags\5.8-arduino11/ctags" -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives "C:\Users\LJI_eric\AppData\Local\Temp\arduino_build_471209\preproc\ctags_target_for_gcc_minus_e.cpp"
+Compiling sketch...
+"C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avr-g++" -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=10801 -DARDUINO_AVR_MEGA2560 -DARDUINO_ARCH_AVR   "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega" "-IC:\Program Files (x86)\Arduino\libraries\Motion" "-IC:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src" "C:\Users\LJI_eric\AppData\Local\Temp\arduino_build_471209\sketch\sketch_mar20a.ino.cpp" -o "C:\Users\LJI_eric\AppData\Local\Temp\arduino_build_471209\sketch\sketch_mar20a.ino.cpp.o"
+sketch_mar20a:84: error: missing terminating " character
+
+   Serial.println("This is a game to test how steady you can move an object with one hand. \n
+
+   ^
+
+sketch_mar20a:85: error: missing terminating " character
+
+                             Keep the device on a table and mark 2 points.");
+
+                             ^
+
+sketch_mar20a:87: error: missing terminating " character
+
+   Serial.println("Move the Device from one place to another
+
+   ^
+
+sketch_mar20a:88: error: stray '\' in program
+
+                             without triggering the Any Motion Interrupt.\n\n");
+
+                             ^
+
+sketch_mar20a:88: error: stray '\' in program
+
+sketch_mar20a:88: error: missing terminating " character
+
+sketch_mar20a:91: error: missing terminating " character
+
+   Serial.println("Move the device around and then place it at one position.\n
+
+   ^
+
+sketch_mar20a:92: error: missing terminating " character
+
+                             Change the threshold and duration to increase the difficulty level.");
+
+                             ^
+
+In file included from C:\Users\LJI_eric\Documents\Arduino\sketch_mar20a\sketch_mar20a.ino:26:0:
+
+C:\Program Files (x86)\Arduino\libraries\Motion/NAxisMotion.h:705:17: error: variable or field '_delay' declared void
+
+ void _delay(u_32);
+
+                 ^
+
+C:\Program Files (x86)\Arduino\libraries\Motion/NAxisMotion.h:705:13: error: 'u_32' was not declared in this scope
+
+ void _delay(u_32);
+
+             ^
+
+C:\Users\LJI_eric\Documents\Arduino\sketch_mar20a\sketch_mar20a.ino: In function 'void setup()':
+
+sketch_mar20a:63: error: 'OPERATION_MODE_NDOF' was not declared in this scope
+
+   mySensor.setOperationMode(OPERATION_MODE_NDOF);
+
+                             ^
+
+sketch_mar20a:85: error: 'Keep' was not declared in this scope
+
+                             Keep the device on a table and mark 2 points.");
+
+                             ^
+
+sketch_mar20a:92: error: 'Change' was not declared in this scope
+
+                             Change the threshold and duration to increase the difficulty level.");
+
+                             ^
+
+Using library Motion in folder: C:\Program Files (x86)\Arduino\libraries\Motion (legacy)
+Using library Wire at version 1.0 in folder: C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire 
+exit status 1
+missing terminating " character
